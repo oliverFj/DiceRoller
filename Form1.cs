@@ -207,7 +207,9 @@ namespace DiceRoller
             lbl_result.Text = result.ToString();
         }
 
-        
-
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
